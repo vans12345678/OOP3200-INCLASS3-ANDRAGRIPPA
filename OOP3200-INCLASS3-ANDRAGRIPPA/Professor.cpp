@@ -18,21 +18,21 @@
  * @param age
  * @param employee_id
  */
-void Professor::Professor(string first_name, string last_name, string age, string employee_id) {
+Professor::Professor(std::string first_name, std::string last_name, std::string age, std::string employee_id) {
 
 }
 
 /**
- * @return string
+ * @return std::string
  */
-string Professor::getEmployeeID() {
+std::string Professor::getEmployeeID() {
     return "";
 }
 
 /**
  * @param value
  */
-void Professor::setEmployeeID(string value) {
+void Professor::setEmployeeID(std::string value) {
 
 }
 
@@ -44,8 +44,8 @@ void Professor::Teaches() {
 }
 
 /**
- * @return string
+ * @return std::string
  */
-string Professor::ToString() {
+std::string Professor::ToString() {
     return "";
 }
